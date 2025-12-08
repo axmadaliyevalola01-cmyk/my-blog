@@ -28,10 +28,13 @@ header {
 
 .logo {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
+    padding: 40px;
+
 }
-.services h2{
+
+.services h2 {
     font-size: 70px;
     color: blue;
 
@@ -237,8 +240,9 @@ nav a:hover {
 
 .umumiyfuter {
     display: flex;
-padding: 30px;
-gap: 500px;
+    padding: 30px;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 
 .interests ul {
@@ -246,6 +250,7 @@ gap: 500px;
     padding-left: 20px;
     line-height: 1.7;
 }
+
 .services {
     padding: 40px 0;
     text-align: center;
@@ -264,13 +269,13 @@ gap: 500px;
     background: white;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: 0.3s;
 }
 
 .box:hover {
     transform: translateY(-10px);
-      background: linear-gradient(135deg, #160c9a 0%, #4977cc 100%);
+    background: linear-gradient(135deg, #160c9a 0%, #4977cc 100%);
 
 }
 
@@ -321,6 +326,7 @@ footer {
     font-size: 14px;
     opacity: 0.8;
 }
+
 .interest-list {
     padding: 40px 20px;
 }
@@ -344,14 +350,14 @@ footer {
     border-radius: 15px;
     padding: 25px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
     border: 1px solid #eee;
 }
 
 .interest-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
 .interest-card .icon {
@@ -374,22 +380,25 @@ footer {
 .interests {
     margin: 40px 0;
 }
+
 .interest-list li {
     margin: 8px 0;
     font-size: 18px;
 }
 
-.portfolio h2{
+.portfolio h2 {
     font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 15px;
 }
+
 .work {
     background: #f2f2f2;
     padding: 20px;
@@ -403,9 +412,11 @@ footer {
     justify-content: space-around;
     margin: 40px 0;
 }
+
 .stat-box {
     text-align: center;
 }
+
 .stat-box h3 {
     font-size: 30px;
     margin: 0;
@@ -428,6 +439,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
 }
+
 .service {
     background: #e8e8e8;
     padding: 20px;
@@ -436,158 +448,191 @@ footer {
 }
 
 .interests-section {
-  padding: 60px 20px;
-  text-align: center;
-  color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
 }
+
 .interests-section h2 {
-  margin-bottom: 18px;
-  font-size: 28px;
+    margin-bottom: 18px;
+    font-size: 28px;
 }
 
 .interests {
-  display: flex;
-  gap: 18px;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 900px;
-  margin: 0 auto 10px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto 10px;
 }
 
 .interest {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(255,255,255,0.12), rgba(255,255,255,0.06));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-weight: 600;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
-  transition: transform .35s ease, box-shadow .35s ease, background .35s ease;
-  cursor: default;
-  position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.06));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    transition: transform .35s ease, box-shadow .35s ease, background .35s ease;
+    cursor: default;
+    position: relative;
 }
 
-.interest::before{
-  content: "";
-  position: absolute;
-  inset: -6px;
-  border-radius: 50%;
-  border: 2px dashed rgba(255,255,255,0.06);
-  transition: opacity .35s;
-  opacity: 0.9;
+.interest::before {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 2px dashed rgba(255, 255, 255, 0.06);
+    transition: opacity .35s;
+    opacity: 0.9;
 }
 
 .interest:hover {
-  transform: translateY(-12px) scale(1.06);
-  box-shadow: 0 16px 40px rgba(0,0,0,0.30);
-  background: linear-gradient(135deg,#0066ff 0%, #00ccff 100%);
+    transform: translateY(-12px) scale(1.06);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.30);
+    background: linear-gradient(135deg, #0066ff 0%, #00ccff 100%);
 }
 
 .interests-section .note {
-  margin-top: 12px;
-  opacity: 0.9;
+    margin-top: 12px;
+    opacity: 0.9;
 }
 
 .projects-section {
-  padding: 60px 20px;
-  color: #fff;
-  background: rgba(0,0,0,0.05);
+    padding: 60px 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.05);
 }
-.projects-section h2 { text-align:center; margin-bottom: 26px; font-size: 26px; }
+
+.projects-section h2 {
+    text-align: center;
+    margin-bottom: 26px;
+    font-size: 26px;
+}
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 18px;
-  max-width: 1100px;
-  margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .project-card {
-  background: #fff;
-  color: #111;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-  transition: transform .28s ease, box-shadow .28s ease;
+    background: #fff;
+    color: #111;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transition: transform .28s ease, box-shadow .28s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 18px 46px rgba(0,0,0,0.18);
+    transform: translateY(-8px);
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.18);
 }
 
 .posts-section {
-  padding: 50px 20px;
-  color: #fff;
-  text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
 }
+
 .posts-list {
-  list-style: none;
-  padding: 0;
-  max-width: 700px;
-  margin: 12px auto 0;
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: 12px auto 0;
 }
+
 .posts-list li {
-  background: rgba(255,255,255,0.06);
-  padding: 12px 16px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .posts-list a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
 }
+
 .posts-list span {
-  color: rgba(255,255,255,0.7);
-  font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
 }
 
 .subscribe-section {
-  padding: 48px 20px;
-  text-align:center;
-  color: #fff;
+    padding: 48px 20px;
+    text-align: center;
+    color: #fff;
 }
-.subscribe {
-  display:flex;
-  gap:10px;
-  justify-content:center;
-  max-width:480px;
-  margin: 12px auto 0;
-}
-.subscribe input[type="email"]{
-  flex:1;
-  padding:12px 14px;
-  border-radius:8px;
-  border: 1px solid rgba(255,255,255,0.12);
-  outline:none;
-  background: rgba(255,255,255,0.04);
-  color: #fff;
-}
-.subscribe button {
-  padding: 12px 18px;
-  border-radius:8px;
-  border:none;
-  background: linear-gradient(90deg,#0066ff,#00ccff);
-  color:#fff;
-  cursor:pointer;
-  transition: transform .2s;
-}
-.subscribe button:hover { transform: translateY(-4px); }
 
-@media (max-width:600px){
-  .interests { gap:12px; }
-  .interest { width:86px; height:86px; font-size:14px; }
-  .projects-grid { grid-template-columns: 1fr; }
-  .subscribe { flex-direction: column; padding: 0 20px; }
-  .subscribe button { width:100%; }
+.subscribe {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    max-width: 480px;
+    margin: 12px auto 0;
+}
+
+.subscribe input[type="email"] {
+    flex: 1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    outline: none;
+    background: rgba(255, 255, 255, 0.04);
+    color: #fff;
+}
+
+.subscribe button {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(90deg, #0066ff, #00ccff);
+    color: #fff;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.subscribe button:hover {
+    transform: translateY(-4px);
+}
+
+@media (max-width:600px) {
+    .interests {
+        gap: 12px;
+    }
+
+    .interest {
+        width: 86px;
+        height: 86px;
+        font-size: 14px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .subscribe button {
+        width: 100%;
+    }
 }
 
 .new-section {
@@ -620,9 +665,10 @@ footer {
 
 .new-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.07);
-      background: linear-gradient(135deg,#0066ff 0%, #00ccff 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+    background: linear-gradient(135deg, #0066ff 0%, #00ccff 100%);
 }
+
 .servies {
     margin-top: 50px;
     text-align: center;
@@ -646,10 +692,12 @@ footer {
     transform: translateY(-8px);
     background: #eaeaea;
 }
+
 .testimonials {
     margin-top: 60px;
 }
-.testimonials h2{
+
+.testimonials h2 {
     font-size: 30px;
     color: rgb(76, 0, 255);
     display: flex;
@@ -670,6 +718,7 @@ footer {
     border-left: 6px solid #333;
     border-radius: 10px;
 }
+
 .lessons-section {
     margin: 60px 0;
     padding: 20px;
@@ -693,18 +742,19 @@ footer {
     background: white;
     padding: 25px;
     border-radius: 14px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
     transition: 0.3s;
 }
 
 .lesson-card:hover {
     transform: scale(1.03);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.18);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.18);
 }
 
 .lesson-card h3 {
     margin-bottom: 10px;
 }
+
 .extra-blocks {
     padding: 30px 0;
     margin: 50px 0;
@@ -725,7 +775,7 @@ footer {
     background: #ffffff;
     border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.13);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
     text-align: center;
     transition: 0.3s;
 }
@@ -747,8 +797,9 @@ footer {
 
 .extra-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.18);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.18);
 }
+
 .lola-brand {
     background: #fff7d1;
     border-left: 6px solid #c9a239;
@@ -758,7 +809,7 @@ footer {
     gap: 20px;
     align-items: center;
     margin-bottom: 45px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
 }
 
 .brand-logo {
@@ -786,6 +837,7 @@ footer {
     line-height: 1.4;
     color: #6e5a1d;
 }
+
 .lola-lessons {
     padding: 40px 20px;
     margin-bottom: 40px;
@@ -820,6 +872,7 @@ footer {
     box-shadow: 0 0 12px #ff66c4;
     transform: translateY(-5px);
 }
+
 .lola-facts {
     padding: 40px 20px;
     background: linear-gradient(135deg, #ffe6f2, #e8f0ff);
@@ -846,14 +899,15 @@ footer {
     border-radius: 20px;
     text-align: center;
     font-size: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: .3s;
 }
 
 .fact-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
+
 .lola-collection {
     padding: 40px 20px;
     background: linear-gradient(135deg, #f3e8ff, #e5d4ff);
@@ -881,9 +935,9 @@ footer {
     backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 15px;
-    border: 1px solid rgba(255,255,255,0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     transition: 0.3s ease;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
 
 .lc-card h3 {
@@ -898,68 +952,69 @@ footer {
 
 .lc-card:hover {
     transform: scale(1.05);
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 5px 18px rgba(0,0,0,0.25);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
 }
 
 
 .gallery-section {
-  padding: 50px;
-  text-align: center;
+    padding: 50px;
+    text-align: center;
 }
 
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-  justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
 }
 
 .gallery-grid img {
-  width: 200px;
-  height: 150px;
-  border-radius: 10px;
-  transition: transform 0.3s, box-shadow 0.3s;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .gallery-grid img:hover {
-  transform: scale(1.1);
-  box-shadow: 0 10px 20px rgba(243, 156, 18, 0.7);
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(243, 156, 18, 0.7);
 }
 
 
 .contact-section {
-  padding: 10px;
-  text-align: center;
+    padding: 10px;
+    text-align: center;
 
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
-input, textarea {
-  padding: 10px;
-  width: 300px;
-  border-radius: 8px;
-  border: none;
-  outline: none;
+input,
+textarea {
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
 }
 
 button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  background-color: #f39c12;
-  color: #111;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f39c12;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #e67e22;
+    background-color: #e67e22;
 }
